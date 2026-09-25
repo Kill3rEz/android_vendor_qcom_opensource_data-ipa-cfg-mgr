@@ -1,2 +1,8 @@
 soong_namespace {
+    imports: [
+        "hardware/google/pixel/kernel_headers",
+        "kernel/oneplus/sm8750-modules",
+        "hardware/qcom-caf/sm8750",
+        "vendor/oneplus/sm8750-common",
+    ],
 }
